@@ -1,0 +1,95 @@
+/**index.wxss**/
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #1A1E23;
+}
+
+.userinfoO {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350rpx;
+  width: 700rpx;
+  margin: auto;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350rpx;
+  width: 700rpx;
+  margin: auto;
+  background-color: #57AB6D;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 40rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nicknameO {
+  color: black;
+  margin-top: 50rpx;
+}
+.userinfo-nickname {
+  color: #fff;
+  margin-top: 50rpx;
+}
+.usermotto {
+  margin-top: 200px;
+}
+
+.btn {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: #0372FD;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn2 {
+  width: 80%;
+  margin-top: 70rpx;
+  background-color: rgb(228, 76, 76);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-hover {
+  transform: scale(0.95, 0.95);
+  background-color: #13508F;
+}
+.card {
+  background: #57AB6D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350rpx;
+  width: 700rpx;
+  margin: auto;
+  margin-top: 20rpx;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.balance{
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 80rpx;
+}
+
+

@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/profile/profile",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/catalogue/catalogue"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "流动站小金库",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true 
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "活动",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-actived.png"
+      },
+      {
+        "text": "交易 ",
+        "pagePath": "pages/catalogue/catalogue",
+        "iconPath": "images/amount.png",
+        "selectedIconPath": "images/amount-actived.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
+      }
+    ]
+  }
+}
