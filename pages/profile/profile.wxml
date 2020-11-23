@@ -33,7 +33,4 @@
       <text>今日盈余:{{todayEarn}}</text>
      </view>
   </view>
-  <view>
-    <button class="btn2" bindtap="add1">加100</button>
-  </view>
 </view>

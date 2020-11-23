@@ -150,6 +150,7 @@ add1:function(){
             balance:data,
             todayEarn:this.todayEarn+100
           })
+          this.onLoad(); //重新加载onLoad()
         }
       },
       fail: function (res) {
